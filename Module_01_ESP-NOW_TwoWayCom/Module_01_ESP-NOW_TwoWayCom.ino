@@ -26,7 +26,7 @@
 #define I2C_ADDRESS_OLED 0x3C // I2C address of the OLED display
 
 // MAC Address of the second ESP32 module
-const uint8_t MAC_MODULE2[] = {0x80, 0x7D, 0x3A, 0xBA, 0xE0, 0xAC };
+const uint8_t MAC_MODULE2[] = { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF };
 
 // Wi-Fi channel
 #define CHAN_AP 2 
