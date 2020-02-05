@@ -27,7 +27,7 @@
 #define I2C_BMP280 0x76
 
 // MAC Address of the FIRST ESP32 module
-const uint8_t MAC_MODULE1[] = { 0x84, 0x0D, 0x8E, 0x03, 0x8B, 0xE4 };
+const uint8_t MAC_MODULE1[] = { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF };
 
 // Wi-Fi channel
 #define CHAN_AP 2 
